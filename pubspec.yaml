@@ -63,7 +63,7 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 flutter_gen:
-  output: gen/assets/
+  output: lib/core/generated/assets/
   integrations:
     image: true
     flutter_svg: true
@@ -112,41 +112,44 @@ flutter:
           weight: 800
     - family: inter
       fonts:
-        - asset: assets/fonts/inter/Inter-ExtraLight.ttf
+        - asset: assets/fonts/inter/Inter-ExtraLight.otf
           weight: 200
-        - asset: assets/fonts/inter/Inter-ExtraLightItalic.ttf
+        - asset: assets/fonts/inter/Inter-ExtraLightItalic.otf
           style: italic
           weight: 200
-        - asset: assets/fonts/inter/Inter-Light.ttf
+        - asset: assets/fonts/inter/Inter-Light.otf
           weight: 300
-        - asset: assets/fonts/inter/Inter-LightItalic.ttf
+        - asset: assets/fonts/inter/Inter-LightItalic.otf
           style: italic
           weight: 300
-        - asset: assets/fonts/inter/Inter-Regular.ttf
+        - asset: assets/fonts/inter/Inter-Regular.otf
           weight: 400
-        - asset: assets/fonts/inter/Inter-Medium.ttf
+        - asset: assets/fonts/inter/Inter-Italic.otf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.otf
           weight: 500
-        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+        - asset: assets/fonts/inter/Inter-SemiBold.otf
           weight: 600
-        - asset: assets/fonts/inter/Inter-Bold.ttf
+        - asset: assets/fonts/inter/Inter-Bold.otf
           weight: 700
-        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+        - asset: assets/fonts/inter/Inter-ExtraBold.otf
           weight: 800
-        - asset: assets/fonts/inter/Inter-Black.ttf
+        - asset: assets/fonts/inter/Inter-Black.otf
           weight: 900
-        - asset: assets/fonts/inter/Inter-BlackItalic.ttf
+        - asset: assets/fonts/inter/Inter-BlackItalic.otf
           style: italic
           weight: 900
-        - asset: assets/fonts/inter/Inter-ExtraBoldItalic.ttf
+        - asset: assets/fonts/inter/Inter-ExtraBoldItalic.otf
           style: italic
           weight: 800
-        - asset: assets/fonts/inter/Inter-BoldItalic.ttf
+        - asset: assets/fonts/inter/Inter-BoldItalic.otf
           style: italic
           weight: 700
-        - asset: assets/fonts/inter/Inter-MediumItalic.ttf
+        - asset: assets/fonts/inter/Inter-MediumItalic.otf
           style: italic
           weight: 500
-        - asset: assets/fonts/inter/Inter-SemiBoldItalic.ttf
+        - asset: assets/fonts/inter/Inter-SemiBoldItalic.otf
           style: italic
           weight: 600
   #   - family: Schyler
