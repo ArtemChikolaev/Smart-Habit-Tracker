@@ -37,6 +37,17 @@ class $AssetsIconsGen {
   List<SvgGenImage> get values => [add, asleep, asleepFilled, subtract, sun];
 }
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/test-image.svg
+  SvgGenImage get testImage =>
+      const SvgGenImage('assets/images/test-image.svg');
+
+  /// List of all assets
+  List<SvgGenImage> get values => [testImage];
+}
+
 class $AssetsTranslationsGen {
   const $AssetsTranslationsGen();
 
@@ -54,6 +65,7 @@ class Assets {
   const Assets._();
 
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsTranslationsGen translations = $AssetsTranslationsGen();
 }
 

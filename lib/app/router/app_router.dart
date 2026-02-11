@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:collection/collection.dart';
-import 'package:smart_habit_tracker/features/home/presentation/pages/home_page.dart';
+import 'package:smart_habit_tracker/src/features/home/presentation/pages/home_page.dart';
 
 class AppRouter {
   AppRouter();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:smart_habit_tracker/core/assets/app_fonts.dart';
+import 'package:smart_habit_tracker/app/theme/app_fonts.dart';
 import 'package:smart_habit_tracker/core/generated/assets/assets.gen.dart';
 import 'package:smart_habit_tracker/core/generated/localizations/locale_keys.g.dart';
 
