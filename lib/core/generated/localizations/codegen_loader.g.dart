@@ -17,12 +17,16 @@ class CodegenLoader extends AssetLoader{
   static const Map<String,dynamic> _ru = {
   "home_page_title": "Умный трекер привычек",
   "home_page_welcome": "Добро пожаловать в Smart Habit Tracker!",
-  "home_page_description": "Это приложение для отслеживания привычек, которое поможет вам достичь ваших целей."
+  "home_page_description": "Это приложение для отслеживания привычек, которое поможет вам достичь ваших целей.",
+  "home_page_habits": "Привычки",
+  "habits_list_title": "Список привычек"
 };
 static const Map<String,dynamic> _en = {
   "home_page_title": "Smart Habit Tracker",
   "home_page_welcome": "Welcome to Smart Habit Tracker!",
-  "home_page_description": "This is a habit tracker app that helps you track your habits and achieve your goals."
+  "home_page_description": "This is a habit tracker app that helps you track your habits and achieve your goals.",
+  "home_page_habits": "Habits",
+  "habits_list_title": "Habits List"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ru": _ru, "en": _en};
 }

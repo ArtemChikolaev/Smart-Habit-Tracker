@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
+import 'package:smart_habit_tracker/app/router/app_router.dart';
 import 'package:smart_habit_tracker/app/theme/app_fonts.dart';
 import 'package:smart_habit_tracker/core/generated/assets/assets.gen.dart';
 import 'package:smart_habit_tracker/core/generated/localizations/locale_keys.g.dart';
@@ -85,6 +87,30 @@ class _HomePageView extends StatelessWidget {
                               ),
                               const SizedBox(height: 16),
                               Assets.icons.sun.svg(width: 50, height: 50),
+                              const SizedBox(height: 16),
+                              ElevatedButton(
+                                onPressed: () {
+                                  context.pushNamed(
+                                    MobilePages.habitsPage.name,
+                                  );
+                                },
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Theme.of(
+                                    context,
+                                  ).colorScheme.primary,
+                                  foregroundColor: Theme.of(
+                                    context,
+                                  ).colorScheme.onPrimary,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                ),
+                                child: Text(
+                                  LocaleKeys.home_page_habits.tr(),
+                                  style: AppFonts.b4s18regularManrope,
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
                             ],
                           ),
                         ),
